@@ -1,0 +1,95 @@
+/*terkiniular News Module*/
+
+.news-wrapper-terkini{
+    width: 300px;
+    /*height: auto;*/
+    background-color: #585570;
+    position: relative;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #FFF;
+}
+
+.news-wrapper-terkini-header{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #757475;
+}
+
+.news-wrapper-terkini-left{
+    width: 116px;
+    font-size: 16px;
+    display: inline;
+    border-bottom: 3px solid #757475;
+    padding-bottom: 1px;
+}
+
+.news-wrapper-terkini-right{
+    width: auto;
+    float: right;
+    display: inline;
+    padding-top: 5px;
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.news-wrapper-terkini-right > a > img{
+    width: 10px;
+    height: 10px;
+    margin-left: 15px;
+    line-height: 5px;
+}
+
+
+.backgroundContent{
+    /*background-color: #f9f9f9;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.backgroundGreyContent{
+    background-color: #F6F6F6;
+}
+
+.news-module-ver-terkini{
+    width: 255px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.news-module-ver-terkini a{
+    color: white;
+}
+
+.news-module-ver-terkini a:hover{
+    color: #c3c3c3;
+}
+
+.news-module-ver-img-terkini > img{
+    width: 270px;
+    height: 138px;
+}
+
+.news-module-ver-title-terkini{
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.news-module-ver-etc-terkini{
+    padding-top: 0px;
+    color: #d9d9d9;
+    font-size: 10px;
+}
+
+.news-module-ver-icon-terkini > img{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.news-module-ver-time-terkini{
+    margin-top: 3px;
+}

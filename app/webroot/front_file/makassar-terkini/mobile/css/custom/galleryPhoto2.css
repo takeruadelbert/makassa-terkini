@@ -1,0 +1,738 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 27, 2016, 9:44:06 PM
+    Author     : Arif
+*/
+
+.boxOut-marginTop{
+    margin-top: 180px;
+}
+
+.boxOut-advertise{
+    height: 280px;
+    background-color: #E6E6E6;
+    color: #B3B3B3;
+    font-size: 80px;
+}
+
+.boxOut-advertiseMiddle{
+    height: 280px;
+    background-color: #E6E6E6;
+    color: #B3B3B3;
+    font-size: 80px;
+    margin-top: 30px;
+}
+
+.boxOut-deskripsiGalleri{
+    padding: 0px 30px 0px 30px;
+}
+
+.boxOut-titleBerita{
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+    color: #30497d;
+}
+
+.boxOut-shareGallery{
+    margin-bottom: 30px;
+}
+
+.berita-share-facebook{
+    width: 56px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #305891;
+    text-align: center;
+}
+
+.berita-share-facebook img{
+    width: 17px;
+    height: 34px;
+}
+
+.berita-share-twitter{
+    width: 56px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #2CA8D2;
+    text-align: center;
+}
+
+.berita-share-twitter img{
+    width: 32px;
+    height: 29px;
+}
+
+.berita-share-google{
+    width: 56px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #EF423C;
+    text-align: center;
+    float: right;
+}
+
+.berita-share-google img{
+    width: 32px;
+    height: 31px;
+}
+
+.boxOut-beritaShare{
+    height: 47px;
+    border: 1px solid #DCDDDD;
+    border-right: none;
+    margin-top: 5px;
+    background-color: white;
+    color: #FF6600;
+    text-align: center;
+}
+
+.boxOut-beritaShare font:first-child{
+    font-size: 30px;
+    margin-right: 15px;
+}
+.boxOut-beritaShare font:last-child{
+    font-size: 16px;
+}
+
+.boxOut-kategoriBerita{
+    height: 46px;
+    background-color: #ED1C24;
+    font-size: 18px;
+    color: white;
+}
+
+.persen63{
+    padding-top: 5px;
+}
+
+.boxOut-username{
+    height: 45px;
+    color: #666666;
+    font-size: 22px;
+    overflow: hidden;
+    padding-left: 20px;
+    line-height: 40px;
+}
+
+.boxOut-username img{
+    width: 20px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.boxOut-date{
+    height: 46px;
+    color: #666666;
+    font-size: 22px;
+}
+
+.boxOut-date img{
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.box-indexGallery{
+    //border-bottom: 1px solid #C9CACA;*/
+}
+
+.boxOut-indexGallery{
+    margin-top: 70px;
+    height: 543px;
+    margin-bottom: 35px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.circle-gallery{
+    width: 198px;
+    height: 198px;
+    background: rgba(230, 230, 230, 0.5);
+    border-radius: 100%;
+}
+
+.circle-gallery img{
+    width: 84px;
+    height: 94px;
+}
+
+.circle-gallery:hover{
+    background: rgba(237, 28, 36, 0.5);
+}
+
+.boxOut-keteranganFoto{
+    font-style: italic;
+    font-size: 34px;
+    text-align: justify;
+}
+
+.boxOut-beritaTerkait{
+    background-color: #444444;
+    border-bottom: 8px solid #ED1C24;
+}
+
+.box-beritaTerkait{
+    height: 112px;
+    background-color: #ED1C24;
+    color: white;
+    font-size: 48px;
+}
+
+.boxOut-beritaBanyak{
+    padding: 0px 30px 30px 30px;
+}
+
+.boxOut-beritaBanyak > .boxOut-berita{
+    border-bottom: 1px solid #C9CACA;
+}
+
+.boxOut-beritaBanyak > .boxOut-berita:last-child{
+    //border-bottom: none;
+}
+
+.boxOut-berita{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.boxOut-beritaFoto{
+    padding-right: 30px;
+}
+
+.box-beritaFoto{
+    height: 221px;
+    overflow: hidden;
+}
+
+.box-beritaFoto img{
+    left: 50%;
+    margin-left: -70%;
+    position: relative;
+    width: auto !important;
+    height: 100%;
+}
+
+.boxOut-beritaTitle{
+    padding-left: 30px;
+    height: 221px;
+}
+
+.center-news{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    align-items: center;
+}
+
+.box-beritaTitle{
+    font-size: 40px;
+    max-height: 170px;
+    min-height: 40px;
+    //padding-top: 25px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.box-beritaTitle a{
+    color: black;
+}
+
+.box-beritaTitle a:hover{
+    color: #ED1C24;
+}
+
+.box-beritaJam{
+    font-size: 28px;
+}
+
+.boxOut-beritaSponsor{
+    width: 110px;
+    height: 57px;
+    position: absolute;
+    right: 0;
+    margin-top: -10px;
+}
+
+.sponsorTriangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6.5px 11px 6.5px;
+    border-color: transparent transparent #ed1c23 transparent;
+}
+
+.box-beritaSponsor{
+    height: 46px;
+    background-color: #ED1C24;
+    font-size: 17px;
+}
+
+.box-beritaSponsor a{
+    color: white;
+}
+
+.box-beritaSponsor a:hover{
+    color: #E3E3E3;
+}
+
+.boxOut-comment{
+    padding: 30px 30px 0px 30px;
+}
+
+.boxOut-jumlahComment{
+    border-bottom: 1px solid #C9CACA;
+    font-size: 26px;
+    color: #4F4E4E;
+}
+
+.box-comment{
+    padding: 15px 15px 0px 15px;
+}
+
+.box-comment > .row >.col-md-12 > .boxOut-commentImg > img{
+    margin-left: 10px;
+}
+
+.boxOut-commentImg img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.boxOut-commenIsi{
+    padding-left: 0px;
+}
+
+.boxOut-commentName{
+    color: #4F4E4E;
+    font-size: 24px;
+}
+
+.boxOut-isiComment{
+    color: #4F4E4E;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.boxOut-commentTime{
+    color: #999999;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.boxOut-commentTime a{
+    color: #999999;
+}
+
+.boxOut-loginComment{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.boxOut-loginComment a{
+    color: #2CA8D2;
+}
+
+.boxOut-loginComment a:hover{
+    color: #288CAD;
+}
+
+.boxOut-advertiseComment{
+    height: 280px;
+    background-color: #E6E6E6;
+    color: #B3B3B3;
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.modal-edit{
+    width: 980px;
+    margin-top: 240px;
+}
+
+.editModal-content{
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.modal-backdrop {
+    opacity:0.8 !important;
+}
+
+.editModal-header{
+    padding: 0px 65px;
+    border-bottom: none;
+    height: 50px;
+    margin-bottom: 150px;
+}
+
+.button-close{
+    background-color: transparent;
+    color: white;
+    //width: 125px;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: left;
+    position: relative;
+}
+
+.button-close:hover{
+    color: #BFBFBF;
+}
+
+.button-close img{
+    height: 34px;
+    margin-right: 15px;
+    margin-top: -2px;
+}
+
+.button-share{
+    background-color: transparent;
+    color: white;
+    //width: 125px;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: left;
+    position: relative;
+    float: right;
+}
+
+.button-share:hover{
+    color: #BFBFBF;
+}
+
+.button-share img{
+    height: 39px;
+    margin-left: 15px;
+    margin-top: -2px;
+}
+
+.editModal-body{
+    padding-top: 150px;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+.boxOut-fotoModal{
+    height: 415px;
+}
+
+.boxOut-fotoModal img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-textModal{
+    font-style: italic;
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+
+.boxOut-comment{
+    padding: 30px 30px 0px 30px;
+}
+
+.boxOut-jumlahComment{
+    border-bottom: 1px solid #C9CACA;
+    font-size: 26px;
+    color: #4F4E4E;
+}
+
+/*.box-comment{
+    padding: 15px 15px 0px 15px;
+}*/
+
+.box-comment > .row >.col-md-12 > .boxOut-commentImg > img{
+    margin-left: 10px;
+}
+
+.boxOut-commentImg img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.boxOut-commenIsi{
+    padding-left: 0px;
+}
+
+.boxOut-commentName{
+    color: #4F4E4E;
+    font-size: 24px;
+}
+
+.boxOut-isiComment{
+    color: #4F4E4E;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.boxOut-commentTime{
+    color: #999999;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.boxOut-commentTime a{
+    color: #999999;
+}
+
+.boxOut-loginComment{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.boxOut-loginComment a{
+    color: #2CA8D2;
+}
+
+.boxOut-loginComment a:hover{
+    color: #288CAD;
+}
+
+.boxOut-advertiseComment{
+    height: 280px;
+    background-color: #E6E6E6;
+    color: #B3B3B3;
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.boxOut-ulasan{
+    padding: 20px;
+    //background-color: #f1c40f;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #d0d2d4;;
+}
+
+.titlePrimary-text{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.title-text{
+    font-size: 26px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+#textAreaResize{
+    resize: none;
+}
+
+.editTextArea{
+    display: block;
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 24px;
+    line-height: 1.42857;
+    color: #757475;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #d0d2d4;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.editTextArea::-webkit-input-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+.editTextArea:-moz-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+.editTextArea::-moz-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+.editTextArea:-ms-input-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+
+
+.field-ulasan::-webkit-input-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+.field-ulasan:-moz-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+.field-ulasan::-moz-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+.field-ulasan:-ms-input-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+
+
+.form-control-subscribe::-webkit-input-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+.form-control-subscribe:-moz-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+.form-control-subscribe::-moz-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+.form-control-subscribe:-ms-input-placeholder { color: #A9ABAE !important; font-style: italic !important; }
+
+.form-control-subscribe, .form-control-subscribe:focus, .form-control-subscribe:active{
+    box-shadow: none;
+    height: 40px;
+    padding-left: 20px;
+    border: none;
+}
+
+.button-ulasan{
+    background-color: #ed1b23;
+    color: white;
+    width: 200px;
+    font-size: 26px;
+    height: 50px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    padding-left: 0px;
+    float: right;
+}
+
+.button-ulasan:hover{
+    background-color: #dd1b23;
+}
+
+.field-ulasan{
+    height:34px;
+    border-radius: 0px;
+    padding: 0px 10px;
+    background-color: white;
+    border: 1px solid #DCDDDD;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+    color: #757475;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.button-subcribe{
+    background: #ff6600; 
+    color: #fff; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border: 0px; 
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px;
+    height: 40px !important;
+}
+
+.button-subcribe:hover, .button-subcribe:focus, .button-subcribe:active{
+    background: #DB5800;
+    color: #fff; 
+}
+
+.mini-ls{
+    right: -540px;
+}
+
+.adv-bottom{
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+}
+
+.boxOut-countUlasan{
+    border-bottom: 2px solid #d0d2d4;
+    //margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.boxOut-review{
+    margin-bottom: 20px;
+}
+
+.boxOut-pictureReview{
+    padding-right: 15px;
+}
+
+.boxOut-pictureReview img{
+    width: 100%;
+    height: 138px;
+}
+
+.review-name a{
+    font-size: 26px;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.review-time{
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.boxOut-nameReview{
+    height: 35px;
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+.boxOut-deskripsiReview{
+    margin-top: 5px;
+    text-align: justify;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.box-review{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button-lainnya{
+    background-color: #ff6600;
+    color: white;
+    width: 200px;
+    font-size: 26px;
+    height: 50px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    padding-left: 0px;
+    float: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button-lainnya:hover{
+    background-color: #DB5800;
+}
+
+.coba{
+    left: 50%;
+    margin-left: -100%;
+    position: relative;
+    width: auto !important;
+    height: 100%;
+}
+
+.news-module-ver-title {
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 5px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.boxOut-peringatanLogin{
+    padding: 20px;
+    color: red;
+    border-bottom: 2px solid #d0d2d4;
+    font-size: 26px;
+}
+
+.boxOut-peringatanLogin a{
+    color: red;
+}
+
+.boxOut-peringatanLogin a:hover{
+    color: #C42025;
+}

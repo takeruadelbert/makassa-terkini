@@ -1,0 +1,391 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 27, 2016, 9:44:06 PM
+    Author     : Arif
+*/
+
+.boxOut-marginTop{
+    margin-top: 195px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 15px;
+}
+
+
+.boxOut-buttonDesktop{
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.box-buttonDesktop{
+    height: 66px;
+    width: 244px;
+}
+
+.button-desktop{
+    margin: 0px;
+    background-color: #F5F5F5;
+    color: #444444 !important;
+    height: 66px;
+    width: 244px;
+    font-size: 20px;
+    //border: 1px solid #C9CACA;
+    border-radius: 10px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.boxOut-menuTabKontak{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.edit-navtabs-profil > li {
+    margin-bottom: 0px;
+}
+
+.edit-navtabs-profil > li > a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 0px;
+}
+
+.edit-navtabs-profil > li > a {
+    position: relative;
+    display: block;
+    padding: 0px;
+    color: #757475;
+    font-size: 22px;
+}
+
+.edit-navtabs-profil > li > a > .col-md-12{
+    background-color: white;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.edit-navtabs-profil > li:hover > a > .col-md-12{
+    //background-color: #E6E7E8;
+}
+
+.edit-navtabs-profil > li > a > .col-md-12 > .col-md-12{
+    border-right: 1px dotted #DCDDDD;
+    height: 55px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.edit-navtabs-profil > li:last-child > a > .col-md-12 > .col-md-12{
+    border-right: none;
+}
+
+.edit-navtabs-profil > li.active > a > .col-md-12 > .col-md-12{
+    border-right: none;
+}
+
+.edit-navtabs-profil > li.active > a, .edit-navtabs-profil > li.active > a:hover, .edit-navtabs-profil > li.active > a:focus {
+    cursor: default;
+    background-color: transparent;
+    border: none;
+}
+
+.edit-navtabs-profil > li.active > a, .edit-navtabs-profil > li.active > a:focus, .edit-navtabs-profil > li.active > a:hover{
+    color: white;
+}
+
+.edit-navtabs-profil > li.active > a > .col-md-12{
+    background-color: #ed1c23 ;
+
+}
+
+.boxOut-menuTab-1{
+    width: 138px;
+}
+
+.boxOut-menuTab-2{
+    width: 112px;
+}
+
+.boxOut-menuTab-3{
+    width: 141px;
+}
+
+.boxOut-menuTab-4{
+    width: 133px;
+}
+
+.boxOut-menuTab-5{
+    width: 162px;
+}
+
+.boxOut-menuTab-6{
+    width: 102px;
+}
+
+.boxOut-containTab{
+    margin-top: 50px;
+}
+
+.triangle-red{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 13.5px 0 13.5px;
+    border-color: #ed1c23 transparent transparent transparent;
+    position: absolute;
+    margin-left: 40%;
+    display: none;
+}
+
+.edit-navtabs-profil > li.active .triangle-red{
+    display: block;
+}
+
+.boxOut-title{
+    border-bottom: 3px solid #ED1C24;
+    background-image: url('../../img/icon/kontak-titleBackground.png');
+    background-size: calc;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box-title{
+    background-color: #ED1C24;
+    padding-left: 30px;
+    padding-top: 8px;
+    font-size: 30px;
+    height: 55px;
+    color: white;
+    float: left;
+}
+
+.box-titleTriangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 55px 0 0 35px;
+    border-color: transparent transparent transparent #ed1c23;
+    float: left;
+}
+
+.box-title-1{
+    width: 255px;
+}
+
+.box-title-2{
+    width: 216px;
+}
+
+.box-title-3{
+    width: 222px;
+}
+
+.box-title-4{
+    width: 155px;
+}
+
+.box-title-5{
+    width: 282px;
+}
+
+.boxOut-isiContent{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.box-isiContent{
+    font-size: 14px;
+}
+
+.edit-pieChart{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.edit-pieChart img{
+    width: 475px;
+    height: 475px;
+}
+
+.text-pieChart{
+    text-align: center;
+    font-size: 38px;
+}
+
+.boxOut-distribusiTitle{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #ED1C24;
+    border-bottom: 3px solid #ED1C24;
+}
+
+.boxOut-distribusiText{
+    font-size: 18px;
+    color: #332C2B;
+}
+
+.box-title-disclaimer{
+    width: 183px;
+}
+
+.box-isiContent-disclaimer{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.box-title-privacy{
+    width: 213px;
+}
+
+.box-isiContent-privacy{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.box-title-pedoman{
+    width: 318px;
+}
+
+.box-isiContent-pedoman{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.box-title-kontak{
+    width: 222px;
+}
+
+.boxOut-mapKontak{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    height: 540px;
+}
+
+.box-mapText{
+    border-top: 1px dashed #DCDDDD;
+    padding-top: 30px;
+    font-size: 17px;
+    color: #332C2B;
+    text-align: center;
+}
+
+.boxOut-titleField-kontak{
+    color: #444444;
+    font-size: 28px;
+    padding-bottom: 10px;
+    margin-top: 35px;
+}
+
+.row-paddingBottom{
+    padding-bottom: 10px;
+}
+
+.field-kontak, .field-kontak:focus{
+    height:52px;
+    border-radius: 0px;
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid #CCCCCC !important;
+    box-shadow: none !important;
+    color: #757475;
+    font-size: 22px;
+}
+
+.editTextArea-kontak, .editTextArea-kontak:focus{
+    display: block;
+    width: 100%;
+    height: 414px !important;
+    padding: 20px 20px;
+    font-size: 24px !important;
+    //line-height: 1.42857;
+    color: #757475;
+    background-color: white;
+    background-image: none;
+    border: 1px solid #CCCCCC !important;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    resize: none;
+}
+
+.boxOut-kirim{
+    margin-top: 5px;
+    margin-bottom: 85px;
+}
+
+.boxOut-captcha{
+    padding-right: 20px;
+}
+
+.box-captcha{
+    border-radius: 5px;
+    border: 1px solid #B3B3B3;
+    background-color: white;
+    padding: 15px 30px;
+    height: 90px;
+}
+
+.button-kirimKontak{
+    margin: 0px;
+    background-color: #FF6600;
+    color: white !important;
+    height: 90px;
+    width: 100%;
+    font-size: 36px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.button-kirimKontak img{
+    width: 42px;
+    height: 41px;
+    margin-left: 40px;
+}
+
+.boxOut-address{
+    border-top: 1px dashed #DCDDDD;
+    padding-top: 35px;
+    margin-bottom: 250px;
+}
+
+.boxOut-addressLeft{
+    padding-right: 35px;
+}
+
+.boxOut-addressRight{
+    padding-left: 35px;
+}
+
+.boxOut-addressText{
+    font-size: 24px;
+    padding-left: 5px;
+}
+
+.boxOut-addressTelp{
+    margin-top: 50px;
+}
+
+.boxOut-addressEmail{
+    margin-top: 15px;
+}
+
+/*.g-recaptcha > div > div,
+.g-recaptcha > div > div > iframe,
+.rc-anchor-normal{
+    width: 100% !important;
+    height: 90px !important;
+}*/

@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 26, 2016, 2:10:31 PM
+    Author     : Arif
+*/
+
+.boxOut-marginTop{
+    margin-top: 195px;
+}
+
+
+.boxOut-buttonDesktop{
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.box-buttonDesktop{
+    height: 66px;
+    width: 244px;
+}
+
+.button-desktop{
+    margin: 0px;
+    background-color: #F5F5F5;
+    color: #444444 !important;
+    height: 66px;
+    width: 244px;
+    font-size: 20px;
+    //border: 1px solid #C9CACA;
+    border-radius: 10px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.boxOut-titleYear{
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-bottom: 18px;
+}
+
+.box-titleYear{
+    color: #E62129;
+    font-size: 46px;
+    border-bottom: 3px solid #E62129;
+}
+
+.boxOut-jarakContent{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.box-judul{
+    background-color: #E6E6E6;
+    height: 70px;
+    //padding-top: 8px;
+    padding-left: 30px;
+    font-size: 38px;
+    color: #5F5D5D;
+}
+
+.box-circleUp img{
+    cursor:pointer;
+    height: 14px;
+    width: 22px;
+}
+
+.box-popup-pilihan{
+    //height: 205px;
+    margin-bottom: 17px;
+    border-bottom: 4px solid #ED1C24;
+}
+
+.boxOut-infoUser{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.boxOut-infoUser-hide{
+    background-color: white;
+    padding-top: 18px;
+    padding-left: 13px;
+    padding-right: 13px;
+    display: none;
+}
+
+.boxOut-jarakEvent{
+    margin-bottom: 30px;
+}
+
+.boxOut-pictureEvent{
+    padding-right: 10px;
+}
+
+.boxOut-eventContent{
+    padding-left: 10px;
+}
+
+.box-pictureEvent{
+    height: 190px;
+}
+
+.box-pictureEvent img{
+    height: 100%;
+    width: 100%;
+}
+
+.boxOut-titleEvent{
+    max-height: 40px;
+    overflow: hidden;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.boxOut-titleEvent a{
+    color: #332C2B;
+    font-size: 26px;
+}
+
+.boxOut-titleEvent a:hover{
+    color: #594E4C;
+}
+
+.boxOut-textEvent{
+    text-align: justify;
+    color: #332C2B;
+    font-size: 20px;
+    height: 105px;
+    overflow: hidden;
+    max-height: 105px;
+}
+
+.boxOut-keteranganEvent{
+    height: 30px;
+    margin-top: 10px;
+}
+
+.img-eventKeterangan{
+    width: 17px;
+    height: 17px;
+}
+
+.box-textKeterangan{
+    font-size: 16px;
+    max-height: 20px;
+    overflow: hidden;
+}
+
+.boxOut-keteranganEvent > .col-md-3 .box-textKeterangan{
+    padding-left: 5px;
+}

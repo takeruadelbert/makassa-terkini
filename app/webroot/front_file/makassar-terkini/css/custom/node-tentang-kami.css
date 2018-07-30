@@ -1,0 +1,73 @@
+.tk-module{
+	width: 787px;
+	height: auto;
+}
+
+.tk-module-header{
+	height: 40px;
+	position: relative;
+	background-color: red;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.tk-module-header-title{
+	width: 150px;
+	height: 40px;
+	color: #FFF;
+	background-color: #F00;
+	font-size: 14px;
+	font-style: italic;
+	display: inline-block;
+	position:absolute;
+}
+
+.tk-module-header-title > p{
+	padding-top:8px;
+	padding-left:25px;
+	font-size:16px;
+}
+
+.tk-module-header-title-tooltip{
+	position: absolute;
+	top:0px;
+	left:150px;
+	height:40px;
+}
+.tk-module-header-stripes{
+	display:inline-block;
+	height:40px;
+	width:900px;
+	background: repeating-linear-gradient(
+	  45deg,
+	  #444,
+	  #444 5px,
+	  #686868 5px,
+	  #686868 10px
+	);
+	top: -2px;
+	position:absolute;
+	margin-left:84px;
+}
+
+.tk-module-content{
+	margin-top: 15px;
+	font-size: 14px;
+	width: 787px;
+	height: auto;
+	position: relative;
+}
+
+.tk-demografi{
+	width: 305px;
+	height: 630px;
+}
+
+.tk-demografi-head{
+	font-weight: bold;
+}
+
+.tk-demografi-content{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}

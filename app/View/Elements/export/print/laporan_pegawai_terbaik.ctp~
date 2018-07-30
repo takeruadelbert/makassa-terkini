@@ -1,0 +1,112 @@
+<h3 style="text-align: center">
+    Laporan Pegawai Terbaik
+</h3>
+<div style="text-align: center">
+    Periode : <?= $this->Echo->laporanPeriodeBulan($awal, $akhir)?>
+</div>
+<br/>
+<?php
+$employees = array();
+foreach ($resultDefault as $dataList) {
+    foreach ($dataList as $data => $list) {
+        $skor_hadir = isset($list['summary']['prestasi_kerja']) ? $list['summary']['prestasi_kerja']['detail']['score'][29] : 0;
+        $skor_efektifitas_efisiensi = isset($list['summary']['prestasi_kerja']) ? $list['summary']['prestasi_kerja']['detail']['score'][30] : 0;
+        $skor_aktivitas = isset($list['summary']['beban_kerja']) ? $list['summary']['beban_kerja']['detail']['score'][27] : 0;
+        $skor_tanggungjawab = isset($list['summary']['beban_kerja']) ? $list['summary']['beban_kerja']['detail']['score'][28] : 0;
+        $employees[] = array(
+            "foto" => Router::url($list['Employee']['Account']['User']['profile_picture'], true),
+            "nama" => $list['Employee']['Account']['Biodata']['full_name'],
+            "nip" => $list['Employee']['nip_baru'],
+            "departemen" => $list['Employee']['Department']['name'],
+            "pejabat_penilai" => $list['Evaluator']['Account']['Biodata']['full_name'],
+            "skor_tingkat_kehadiran" => isset($list['summary']['prestasi_kerja']) ? $list['summary']['prestasi_kerja']['detail']['score'][29] : 0,
+            "skor_efektifitas_efisiensi" => isset($list['summary']['prestasi_kerja']) ? $list['summary']['prestasi_kerja']['detail']['score'][30] : 0,
+            "skor_besaran_aktivitas" => isset($list['summary']['beban_kerja']) ? $list['summary']['beban_kerja']['detail']['score'][27] : 0,
+            "skor_besaran_tanggungjawab" => isset($list['summary']['beban_kerja']) ? $list['summary']['beban_kerja']['detail']['score'][28] : 0,
+            "persentase_kehadiran" => isset($list['summary']['prestasi_kerja']) ? number_format($list['summary']['prestasi_kerja']['detail']['score'][29] / $list['summary']['prestasi_kerja']['detail']['max_score'][29] * 100, 2) : "-",
+            "persentase_efektifitas_efisiensi" => isset($list['summary']['prestasi_kerja']) ? number_format($list['summary']['prestasi_kerja']['detail']['score'][30] / $list['summary']['prestasi_kerja']['detail']['max_score'][30] * 100, 2) : "-",
+            "persentase_aktivitas" => isset($list['summary']['beban_kerja']) ? number_format($list['summary']['beban_kerja']['detail']['score'][27] / $list['summary']['beban_kerja']['detail']['max_score'][27] * 100, 2) : "-",
+            "persentase_tanggungjawab" => isset($list['summary']['beban_kerja']) ? number_format($list['summary']['beban_kerja']['detail']['score'][28] / $list['summary']['beban_kerja']['detail']['max_score'][28] * 100, 2) : "-",
+            "total_skor" => $skor_hadir + $skor_efektifitas_efisiensi + $skor_aktivitas + $skor_tanggungjawab
+        );
+    }
+}
+
+function cmp($a, $b) {
+    return strcmp($b["total_skor"], $a["total_skor"]);
+}
+
+usort($employees, "cmp");
+
+foreach ($targetDepartments as $dept) {
+    ?>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="table-responsive pre-scrollable stn-table">
+                <form id="checkboxForm" method="post" name="checkboxForm" action="<?php echo Router::url('/' . $this->params['prefix'] . '/' . $this->params['controller'] . '/multiple_delete', true); ?>">
+                    <table width="100%" class="table table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th width="50" rowspan="2">No</th>
+                                <th rowspan="2"><?= __("Foto") ?></th>
+                                <th rowspan="2"><?= __("Nama / NIP Pegawai") ?></th>
+                                <th rowspan="2"><?= __("Departemen") ?></th>
+                                <th rowspan="2"><?= __("Pejabat Penilai") ?></th>
+                                <th rowspan="2"><?= __("Atasan Pejabat Penilai") ?></th>
+                                <th colspan="2"><?= __("Prestasi Kerja (%)") ?></th>
+                                <th colspan="2"><?= __("Beban Kerja (%)") ?></th>
+                                <th rowspan="2"><?= __("Mutu") ?></th>
+                            </tr>
+                            <tr>
+                                <th width="150">Tingkat Kehadiran</th>
+                                <th width="150">Efektifitas & Efisiensi</th>
+                                <th width="150">Besaran Aktifitas</th>
+                                <th width="150">Besaran Tanggung Jawab Dikelola</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                            $limit = intval(isset($this->params['named']['limit']) ? $this->params['named']['limit'] : 10);
+                            $page = intval(isset($this->params['named']['page']) ? $this->params['named']['page'] : 1);
+                            $i = ($limit * $page) - ($limit - 1);
+                            $count = 0;
+                            foreach ($employees as $employee) {
+                                if ($i <= 3) {
+                                    if ($employee['departemen'] == $dept) {
+                                        $count++;
+                                        ?>
+                                        <tr>
+                                            <td class="text-center"><?= $i ?></td>
+                                            <td class="text-center"><img src="<?= $employee["foto"] ?>" width="35" height="45"/></td>
+                                            <td class="text-center"><?= $employee["nama"] ?><br/><?= $employee["nip"] ?></td>
+                                            <td class="text-center"><?= $employee["departemen"] ?></td>
+                                            <td class="text-center"><?= $employee["pejabat_penilai"] ?></td>
+                                            <td class="text-center">-</td>
+                                            <td class="text-center"><?= $employee["persentase_kehadiran"] ?></td>
+                                            <td class="text-center"><?= $employee["persentase_efektifitas_efisiensi"] ?></td>
+                                            <td class="text-center"><?= $employee["persentase_aktivitas"] ?></td>
+                                            <td class="text-center"><?= $employee["persentase_tanggungjawab"] ?></td>
+                                            <td class="text-center">Baik</td>
+                                        </tr>
+                                        <?php
+                                        $i++;
+                                    }
+                                }
+                            }
+                            if ($count == 0) {
+                                ?>
+                                <tr>
+                                    <td class="text-center" colspan="13">Tidak Ada Data</td>
+                                </tr>
+                                <?php
+                            }
+                            ?>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <?php
+}
+?>

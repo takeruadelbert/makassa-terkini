@@ -1,0 +1,393 @@
+.backgroundContent{
+    /*background-color: #f9f9f9;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.backgroundGreyContent{
+    background-color: #F6F6F6;
+}
+
+.news-module-ver{
+    width: 255px;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 15px;
+
+    float: left;
+    margin-right: 10px;
+}
+
+.news-module-verRekomendasi{
+    width: 250px;
+}
+
+.news-module-verKategori{
+    width: 270px;
+}
+
+.news-module-verKategori p{
+    height: 80px;
+    overflow: hidden;
+}
+
+.news-module-ver:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.news-module-ver-img {
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+}
+
+.news-module-ver-img > img{
+    /*width: inherit;*/
+    left: 50%; 
+    margin-left: -50%; 
+    position: relative; 
+    width: auto !important; 
+    height: 100% !important;
+}
+
+.news-module-ver-title{
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 5px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.edit-height-ver-title{
+    height: 45px;
+}
+
+.edit-video-title{
+    height: inherit;
+}
+
+.news-module-ver-titleVideo{
+    height: 60px;
+}
+
+
+
+.videoPopuler-title{
+    height: inherit;
+    max-height: 90px;
+}
+
+.videoPopuler-titleSecondary{
+    max-height: 40px;
+}
+
+.news-module-ver-titlePrimary{
+    font-size: 16px;
+    margin-bottom: 5px;
+    height: inherit;
+    max-height: 48px;
+    overflow: hidden;
+}
+
+.news-module-ver-etc{
+    padding-top: 5px;
+    display: inline-block;
+    font-size: 10px;
+    color: #5C5C5C;
+}
+
+.news-module-ver-tag{
+    /*    background-color: #FF6600;
+        color: #FFF;*/
+    font-size: 10px;
+    padding: 2px 15px 2px 0px;
+    margin-top: 0px;
+    position: relative;
+    font-style: normal;
+}
+
+.orange-tooltip > img{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 30px;
+    top: -10px;
+}
+
+.news-module-ver-icon > img{
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+.news-module-ver-time{
+    margin-top: 1px;
+}
+
+.news-head-rk{
+    margin-top: 15px;
+    width: 790px;
+    display: block;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.news-head-rk > img{
+    width: auto;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.news-head-rk .redspan{
+    position: relative;
+    width: 123px;
+    height: 5px;
+    background-color: #F00;
+    display: inline-block;
+    top: 3px;
+}
+
+.news-head-rk .greyspan{
+    position: absolute;
+    width: 465px;
+    height: 2px;
+    background-color: gray;
+    top: 2px;
+    left: 123px;
+}
+
+
+
+
+
+.news-head-cr{
+    margin-top: 15px;
+    width: 790px;
+    display: block;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.news-head-cr > img{
+    width: 104px;
+    height: 34px;
+    margin-right: 15px;
+}
+
+.news-head-cr .redspan{
+    position: relative;
+    width: 123px;
+    height: 5px;
+    background-color: #F00;
+    display: inline-block;
+    top: 3px;
+}
+
+.news-head-cr .greyspan{
+    position: absolute;
+    width: 543px;
+    height: 2px;
+    background-color: gray;
+    top: 2px;
+    left: 123px;
+}
+
+
+
+
+
+
+.news-head-kategori{
+    margin-top: 15px;
+    width: 790px;
+    display: block;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.news-head-kategori > img{
+    width: auto;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.news-head-kategori .redspan{
+    position: relative;
+    width: 123px;
+    height: 5px;
+    background-color: #F00;
+    display: inline-block;
+    top: 3px;
+}
+
+.news-head-kategori .greyspan{
+    position: absolute;
+    width: 465px;
+    height: 2px;
+    background-color: gray;
+    top: 2px;
+    left: 123px;
+}
+
+
+
+
+
+
+
+
+.news-head-gadget{
+    margin-top: 15px;
+    width: 790px;
+    display: block;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.news-head-gadget > img{
+    width: auto;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.news-head-gadget .redspan{
+    position: relative;
+    width: 123px;
+    height: 5px;
+    background-color: #F00;
+    display: inline-block;
+    top: 3px;
+}
+
+.news-head-gadget .greyspan{
+    position: absolute;
+    width: 465px;
+    height: 2px;
+    background-color: gray;
+    top: 2px;
+    left: 123px;
+}
+
+
+
+
+
+
+.news-head-terkait{
+    margin-top: 15px;
+    width: 790px;
+    display: block;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.news-head-terkait > img{
+    width: auto;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.news-head-terkait .redspan{
+    position: relative;
+    width: 123px;
+    height: 5px;
+    background-color: #F00;
+    display: inline-block;
+    top: 3px;
+}
+
+.news-head-terkait .greyspan{
+    position: absolute;
+    width: 465px;
+    height: 2px;
+    background-color: gray;
+    top: 2px;
+    left: 123px;
+}
+
+.mini-ls{
+    position: absolute;
+    color: #F00;
+    right: -460px;
+    top: -15px;
+    font-size: 10px;
+}
+
+.mini-ls img{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    top: -2px;
+}
+
+
+ul.s-baca-juga {
+    list-style: none;
+    padding:0;
+    margin:0;
+    font-weight: bold;
+}
+
+ul.s-baca-juga li {
+    list-style-type:square;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 18px;
+}
+ul.s-baca-juga li a {
+    color: #333;
+    font-size: 13px;
+}
+
+/*ul.s-baca-juga li:before {
+    content: "• ";
+    color: red;  or whatever color you prefer 
+}*/
+
+
+a {
+    color: #333;
+}
+
+
+/* video */
+
+.duration {
+    background: #808184;
+    padding: 10px 15px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #fff;
+}
+
+.foto-count {
+    background: #000;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: #fff;
+    font-size: 12px;
+}
+
+ul.s-baca-juga {
+    list-style: none;
+    padding:0;
+    margin:0;
+    font-weight: bold;
+}
+
+ul.s-baca-juga li {
+    list-style-type:square;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 18px;
+}
+ul.s-baca-juga li a {
+    color: #333;
+    font-size: 13px;
+}

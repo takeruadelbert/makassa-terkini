@@ -1,0 +1,177 @@
+.kontak-module{
+	width: 1098px;
+	height: auto;
+}
+
+.kontak-module-header{
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+	background-color: #F00;
+}
+
+.kontak-module-header-title{
+	width: 150px;
+	height: 40px;
+	color: #FFF;
+	background-color: #F00;
+	font-size: 14px;
+	font-style: italic;
+	display: inline-block;
+	position:absolute;
+}
+
+.kontak-module-header-title > p{
+	padding-top:8px;
+	padding-left:25px;
+	font-size:16px;
+}
+
+.kontak-module-header-title-tooltip{
+	position: absolute;
+	top:0px;
+	left:150px;
+	height:40px;
+}
+.kontak-module-header-stripes{
+	display:inline-block;
+	height:40px;
+	width:1015px;
+	background: repeating-linear-gradient(
+	  45deg,
+	  #444,
+	  #444 5px,
+	  #686868 5px,
+	  #686868 10px
+	);
+	top: -2px;
+	position:absolute;
+	margin-left:84px;
+}
+
+.kontak-module-content{
+	margin-top: 15px;
+	font-size: 14px;
+	width: 980px;
+	height: auto;
+	position: relative;
+    display: flex;
+}
+
+.kontak-map{
+	margin-top: 15px;
+	height: 287px;
+	width: inherit;
+	background-color: #d9d9d9;
+	position: relative;
+}
+
+.kontak-module-info{
+	width: 266px;
+	height: auto;
+	display: inline-block;
+	padding-right: 40px;
+	border-right: 1px #d9d9d9 solid;
+}
+
+.kontak-info-title{
+	color: #F00;
+	padding-bottom: 10px;
+	border-bottom: 1px #676767 dashed;
+}
+
+.kontak-info-content{
+	padding-top:7px;
+	padding-left:5px;
+	margin-bottom: 15px;
+}
+
+.kontak-info-detail{
+	width: 161px;
+	margin-left: 45px;
+	display: inline-block;
+}
+
+.kontak-info-content > img{
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	position: absolute;
+}
+
+.kontak-module-form-wrapper{
+	display: block;
+	position:relative;
+	padding-left: 45px;
+}
+
+.kontak-module-form{
+	width: 800px;
+	display: flex;
+}
+
+
+.kontak-form-nama{
+	width: 377px;
+	margin-right: 30px;
+}
+
+.kontak-form-nama > span{
+}
+
+.kontak-form-nama > input{
+	width: inherit;
+	height: 32px;
+	margin-top: 10px;
+	background-color: #f9f9f9;
+	border: 1px #d9d9d9 solid;
+}
+
+.kontak-form-msg{
+	margin-top: 15px;
+	display: inline-block !important;
+	position: relative;
+}
+
+.kontak-form-msg > input{
+	width: 785px;
+	height: 32px;
+	margin-top: 10px;
+	background-color: #f9f9f9;
+	border: 1px #d9d9d9 solid;
+}
+
+.kontak-form-msg > textarea{
+	width: 785px;
+	height: 260px;
+	margin-top: 10px;
+	background-color: #f9f9f9;
+	border: 1px #d9d9d9 solid;
+}
+
+
+.s-kontak-left-info li {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		overflow: hidden;
+}
+
+.no-border-radius {
+	border-radius: 0px !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	-o-border-radius: 0px !important;
+	-ms-border-radius: 0px !important;
+}
+
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #BDBDBD !important;
+}
+
+.no-margin {
+	margin: 0px !important;
+}

@@ -1,0 +1,330 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2016, 10:03:18 AM
+    Author     : Arif
+*/
+
+.boxOut-loginTop{
+    padding: 350px 94px 555px 94px;
+}
+
+.boxOut-textLogin{
+    color: #A1A1A1;
+    font-size: 26px;
+    padding-bottom: 80px;
+}
+
+.boxOut-textMail{
+    color: #8B8B8C;
+    font-size: 32px;
+    padding-bottom: 28px;
+}
+
+.box-email{
+    //margin-top: 25px;
+}
+
+.boxOut-username{
+    height: 120px;
+    margin-bottom: 55px;
+}
+
+.boxIconUsername{
+    width: 15%;
+    height: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    //border-right: 3px solid #F4F5F6;
+    background-color: white;
+    //padding-top: 5px;
+}
+
+.boxIconUsername img{
+    height: 41px;
+}
+
+.boxFieldUsername{
+    width: 85%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    height: 100% !important;
+}
+
+.field-boxLeft, .field-boxLeft:focus{
+    border-radius: 0px;
+    font-size: 34px;
+    //padding: 0px 5px;
+    background-color: white;
+    border: 0px none;
+    border-left: 0px none;
+    box-shadow: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 0px;
+    height: 120px !important;
+    padding-left: 50px;
+}
+
+.field-boxLeft::-webkit-input-placeholder { 
+    color: #BFBDBD !important; 
+    font-size: 34px;
+    font-style: italic;
+}
+.field-boxLeft:-moz-placeholder { 
+    color: #BFBDBD !important; 
+    font-size: 34px;
+    font-style: italic;
+}
+.field-boxLeft::-moz-placeholder { 
+    color: #BFBDBD !important;
+    font-size: 34px;
+    font-style: italic;
+}
+.field-boxLeft:-ms-input-placeholder { 
+    color: #BFBDBD !important;
+    font-size: 34px;
+    font-style: italic;
+}
+
+.boxOut-checkBox{
+    margin-bottom: 90px;
+}
+
+.edit-checbox{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 12%;
+}
+
+.boxCheckBox label{
+    font-size: 24px;
+    color: #ED1C24;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 0;
+    margin-left: -47px;
+    margin-top: 3px;
+    border: 1px solid #ED1C24;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out; 
+}
+
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 0;
+    top: 0;
+    margin-left: -45px;
+    margin-top: -3px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 26px;
+    color: #ED1C24;
+}
+
+.box-lupaPassword{
+    font-size: 26px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.box-lupaPassword a{
+    color: #ED1C24;
+}
+
+.box-lupaPassword a:hover{
+    color: #ED1C24;
+}
+
+.box-login{
+    font-size: 26px;
+    text-align: right;
+    padding-right: 5px;
+    display: none;
+}
+
+.box-login a{
+    color: #ED1C24;
+}
+
+.box-login a:hover{
+    color: #ED1C24;
+}
+
+.box-buttonReset{
+    display: none;
+}
+
+.box-buttonLogin{
+    padding-left: 200px;
+}
+
+.button-login{
+    margin: 0px;
+    background-color: #FF6600;
+    color: white !important;
+    width: 401px;
+    font-size: 50px;
+    height: 110px;
+    border-radius: 10px;
+    padding: 0px;
+    float: none !important;
+}
+
+.button-login:hover, .button-login:focus{
+    background-color: #DE5900 !important;
+}
+
+.button-login img{
+    width: 64px;
+    height: 63px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.boxOut-daftarAkun{
+    color: #666666;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+.boxOut-daftarAkun a{
+    color: #E62129;
+}
+
+.boxOut-daftarAkun a:hover{
+    color: #B81B21;
+}
+
+.boxOut-lineLogin{
+    border-bottom: 2px dotted #CCCCCC;
+}
+
+.boxOut-atauLogin{
+    background-image: url('../../img/icon/login-circleAtau.png');
+    background-size: 149px 149px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 149px;
+    color: white;
+    font-size: 50px;
+}
+
+.boxOut-loginBottom{
+    padding-top: 70px;
+    padding-left: 99px;
+    padding-right: 99px;
+    padding-bottom: 87px;
+}
+
+.boxOut-loginBottom > .col-md-6:first-child{
+    padding-right: 22px;
+}
+
+.boxOut-loginBottom > .col-md-6:last-child{
+    padding-left: 22px;
+}
+
+.boxOut-facebookLogo{
+    height: 88px;
+    border-radius: 5px;
+    background-color: #305891;
+}
+
+.boxOut-facebookLogo img{
+    height: 54px;
+    width: 26px;
+}
+
+.boxOut-facebookText{
+    padding: 7px 0px;
+}
+
+.box-facebookText{
+    background-color: #294D80;
+    height: 74px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.box-facebookText a{
+    color: white;
+    font-size: 25px;
+}
+
+.box-facebookText a:hover{
+    color: #DCDBDB;
+}
+
+.boxOut-googleLogo{
+    height: 88px;
+    border-radius: 5px;
+    background-color: #D12F2A;
+}
+
+.boxOut-googleLogo img{
+    height: 52px;
+    width: 52px;
+}
+
+.boxOut-googleText{
+    padding: 7px 0px;
+}
+
+.box-googleText{
+    background-color: #870206;
+    height: 74px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.box-googleText a{
+    color: white;
+    font-size: 25px;
+}
+
+.box-googleText a:hover{
+    color: #DCDBDB;
+}
+
+.boxOut-buttonDesktop{
+    padding-bottom: 87px;
+}
+
+.box-buttonDesktop{
+    height: 66px;
+    width: 244px;
+}
+
+.button-desktop{
+    margin: 0px;
+    background-color: #F5F5F5;
+    color: #C9CACA !important;
+    height: 66px;
+    width: 244px;
+    font-size: 20px;
+    border: 1px solid #C9CACA;
+    border-radius: 10px;
+    padding: 0px;
+    text-align: center;
+}

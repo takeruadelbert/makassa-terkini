@@ -1,0 +1,404 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 27, 2016, 9:44:06 PM
+    Author     : Arif
+*/
+
+.boxOut-marginTop{
+    margin-top: 180px;
+}
+
+
+.boxOut-buttonDesktop{
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.boxOut-homeMenu{
+    padding-left: 170px;
+    padding-right: 150px;
+    background-color: #444444;
+    border-bottom: 5px solid #ED1C24;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.edit-navtabs-profil > li {
+    margin-bottom: 0px;
+}
+
+.edit-navtabs-profil > li > a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 0px;
+}
+
+.edit-navtabs-profil > li > a {
+    position: relative;
+    display: block;
+    padding: 0px;
+    color: #B3B3B3;
+    font-size: 25px;
+}
+
+.edit-navtabs-profil > li > a > .col-md-12{
+    background-color: #444444;;
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+
+.edit-navtabs-profil > li:hover > a > .col-md-12{
+    //background-color: #E6E7E8;
+}
+
+.edit-navtabs-profil > li > a > .col-md-12 > .col-md-12{
+    border-right: 1px dotted #B3B3B3;
+    height: 30px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.edit-navtabs-profil > li:last-child > a > .col-md-12 > .col-md-12{
+    border-right: none;
+}
+
+.edit-navtabs-profil > li.active > a > .col-md-12 > .col-md-12{
+    border-right: none;
+}
+
+.edit-navtabs-profil > li.active > a, .edit-navtabs-profil > li.active > a:hover, .edit-navtabs-profil > li.active > a:focus {
+    cursor: default;
+    background-color: transparent;
+    border: none;
+}
+
+.edit-navtabs-profil > li.active > a, .edit-navtabs-profil > li.active > a:focus, .edit-navtabs-profil > li.active > a:hover{
+    color: white;
+}
+
+.edit-navtabs-profil > li.active > a > .col-md-12{
+    background-color: #ed1c23 ;
+
+}
+
+.boxOut-homeTab-1{
+    padding: 0px 60px !important;
+}
+
+.boxOut-homeTab-2{
+    padding: 0px 30px !important;
+}
+
+.boxOut-homeTab-3{
+    padding: 0px 30px !important;
+}
+
+.boxOut-carouselIndex{
+    height: 610px;
+}
+
+.indicators-edit{
+    top: 30px !important;
+    z-index: 1;
+}
+
+.indicators-edit li{
+    background-color: #747373;
+    border: 0px none;
+    width: 24px;
+    height: 24px;
+    margin-right: 7.5px;
+    opacity: 0.5;
+    top: 0px !important;
+}
+
+.indicators-edit .active{
+    width: 24px;
+    height: 24px;
+    margin-right: 7.5px;
+}
+
+.edit-carousel{
+    height: 610px;
+}
+
+.edit-carousel > .item{
+    background-size: auto 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.boxOut-carouselText{
+    bottom: 0;
+    position: absolute;
+    height: 180px;
+    padding: 0px 50px;
+}
+
+.box-carouselText{
+    height: 90px;
+    font-size: 34px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.box-carouselText a{
+    color: white;
+    height: 90px;
+    overflow: hidden !important;
+    display:table-cell;
+    vertical-align:bottom;
+}
+
+.box-carouselWaktu{
+    color: white;
+    font-size: 28px;
+}
+
+.boxOut-advertise{
+    height: 280px;
+    background-color: #E6E6E6;
+    color: #B3B3B3;
+    font-size: 80px;
+}
+
+.boxOut-indexContent{
+    padding: 0px 30px;
+    background-color: #F5F5F5;
+}
+
+.boxOut-beritaBanyak > .boxOut-berita{
+    border-bottom: 1px solid #C9CACA;
+}
+
+/*.boxOut-beritaBanyak > .boxOut-berita:last-child{
+    border-bottom: none;
+}*/
+
+.boxOut-berita{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.boxOut-beritaFoto{
+    padding-right: 30px;
+}
+
+.box-beritaFoto{
+    height: 221px;
+    overflow: hidden;
+}
+
+.box-beritaFoto img{
+    left: 50%;
+    margin-left: -70%;
+    position: relative;
+    width: auto !important;
+    height: 100%;
+}
+
+.boxOut-beritaTitle{
+    padding-left: 30px;
+    height: 221px;
+}
+
+.center-news{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    align-items: center;
+}
+
+.box-beritaTitle{
+    font-size: 40px;
+    max-height: 170px;
+    min-height: 40px;
+    //padding-top: 25px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.box-beritaTitle a{
+    color: black;
+}
+
+.box-beritaTitle a:hover{
+    color: #ED1C24;
+}
+
+.box-beritaJam{
+    font-size: 28px;
+}
+
+.boxOut-beritaSponsor{
+    width: 110px;
+    height: 57px;
+    position: absolute;
+    right: 0;
+    margin-top: -10px;
+}
+
+.sponsorTriangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6.5px 11px 6.5px;
+    border-color: transparent transparent #ed1c23 transparent;
+}
+
+.box-beritaSponsor{
+    height: 46px;
+    background-color: #ED1C24;
+    font-size: 17px;
+}
+
+.box-beritaSponsor a{
+    color: white;
+}
+
+.box-beritaSponsor a:hover{
+    color: #E3E3E3;
+}
+
+.boxOut-indexVideo{
+    height: 580px;
+    margin-bottom: 20px;
+}
+
+.boxOut-indexVideo *{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-videoText{
+    padding: 0px 15px;
+    margin-bottom: 40px;
+}
+
+.box-videoText{
+    /*    max-height: 140px;
+        height: 70px*/
+}
+
+.videoText-title{
+    max-height: 100px;
+    //height: 70px;
+    font-size: 34px;
+    overflow: hidden;
+    color: #444444;
+}
+
+.videoText-time{
+    height: 30px;
+    font-size: 19px;
+    line-height: 19px;
+    color: #444444;
+    margin-top: 10px;
+
+}
+
+.videoText-time img{
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    margin-top: -4px;
+}
+
+.box-indexGallery{
+    border-bottom: 1px solid #C9CACA;
+}
+
+.boxOut-indexGallery{
+    margin-top: 30px;
+    height: 543px;
+    margin-bottom: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.circle-gallery{
+    width: 198px;
+    height: 198px;
+    background: rgba(230, 230, 230, 0.5);
+    border-radius: 100%;
+}
+
+.circle-gallery img{
+    width: 84px;
+    height: 94px;
+}
+
+.circle-gallery:hover{
+    background: rgba(237, 28, 36, 0.5);
+}
+
+.gallery-count{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 37px;
+    height: 36px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+
+.footer-circle{
+    height: 77px;
+    width: 77px;
+    border-radius: 100%;
+    background-color: #D41328;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    cursor: pointer;
+    position: fixed !important;
+    bottom: 30px !important;
+    right: 20px;
+    visibility: visible;
+    z-index: 2147483639;
+}
+
+.footer-circle:hover{
+    background-color: #B30E21;
+}
+
+.footer-circle img{
+    width: 36px;
+    height: 26px;
+    margin-top: -3px;
+}
+
+.tab-pane{
+    display: none;
+}
+
+.tab-pane.active{
+    display: block;
+}
+
+.box-beritaKategori{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    border-right: 2px solid #333;
+    padding-right: 15px;
+    margin-right: 15px;
+    line-height: 30px;
+}
+
+.box-beritaJamKategori{
+    float: left;
+    position: relative;
+    min-height: 1px;
+    line-height: 30px;
+}

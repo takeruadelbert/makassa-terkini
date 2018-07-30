@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 26, 2016, 4:39:08 PM
+    Author     : Arif
+*/
+
+.boxOut-marginTop{
+    margin-top: 195px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 80px;
+}
+
+
+.boxOut-buttonDesktop{
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.box-buttonDesktop{
+    height: 66px;
+    width: 244px;
+}
+
+.button-desktop{
+    margin: 0px;
+    background-color: #F5F5F5;
+    color: #444444 !important;
+    height: 66px;
+    width: 244px;
+    font-size: 20px;
+    //border: 1px solid #C9CACA;
+    border-radius: 10px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.boxOut-titleEvent{
+    color: #332C2B;
+    font-size: 46px;
+}
+
+.boxOut-keterangan{
+    height: 90px;
+}
+
+.img-eventKeterangan{
+    width: 31px;
+    height: 31px;
+}
+
+.box-textKeterangan{
+    font-size: 28px;
+}
+
+.boxOut-eventFoto{
+    height: 507px;
+}
+
+.boxOut-eventFoto img{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-backgroundEvent{
+    background-color: white;
+    padding: 35px 40px 15px 40px;
+}
+
+.boxOut-infoTitle{
+    color: #E62129;
+    font-style: italic;
+    font-size: 42px;
+}
+
+.boxOut-infoText{
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.boxOut-mapEvent{
+    height: 408px;
+}
+
+.boxOut-bagikan{
+    margin-top: 30px;
+    padding: 25px 35px 0px 35px;
+}
+
+.boxOut-triangleShare{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12.5px 0 12.5px 21px;
+    border-color: transparent transparent transparent #cccccc;
+}
+
+.boxOut-shareCount{
+    background-color: #CCCCCC;
+    color: #FF6600;
+    height: 74px;
+}
+
+.shareCount{
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+.shareText{
+    font-size: 18px;
+}
+
+.boxOut-socialShare > .persen20{
+    padding-left: 10px;
+}
+
+.boxOut-shareFacebook{
+    border-radius: 5px;
+    background-color: #305891;
+    height: 74px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.boxOut-shareFacebook img{
+    width: 22px;
+    height: 45px;
+}
+
+.boxOut-shareTwitter{
+    border-radius: 5px;
+    background-color: #2CA8D2;
+    height: 74px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.boxOut-shareTwitter img{
+    width: 48px;
+    height: 39px;
+}
+
+.boxOut-shareGoogle{
+    border-radius: 5px;
+    background-color: #EF423C;
+    height: 74px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.boxOut-shareGoogle img{
+    width: 42px;
+    height: 41px;
+}
+
+.boxOut-sharePintrest{
+    border-radius: 5px;
+    background-color: #A30309;
+    height: 74px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.boxOut-sharePintrest img{
+    width: 43px;
+    height: 44px;
+}
+
+.boxOut-shareInstagram{
+    border-radius: 5px;
+    background-color: #936357;
+    height: 74px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.boxOut-shareInstagram img{
+    width: 44px;
+    height: 44px;
+}

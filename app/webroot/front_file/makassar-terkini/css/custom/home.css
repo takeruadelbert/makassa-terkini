@@ -1,0 +1,1309 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 2, 2015, 3:13:20 PM
+    Author     : Arif
+*/
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    height: 379px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+
+.content-index{
+    background-color: #FEFEFE;
+}
+
+.boxCarousel-index{
+    height: 380px;
+    margin-bottom: 15px;
+    margin-top: 10px
+}
+
+.carousel-buttonLeft{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.carousel-buttonLeft > img{
+    height: 75px;
+    margin-left: -30px;
+    vertical-align: middle;
+    margin-top: 160px;
+}
+
+.carousel-buttonRight{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.carousel-buttonRight > img{
+    height: 75px;
+    margin-left: -30px;
+    vertical-align: middle;
+    margin-top: 160px;
+}
+
+.indicators-edit li{
+    background-color: #B6B6B7;
+    border: 0px none;
+}
+
+.buttonCarousel-selengkapnya{
+    width: 100%;
+    height: 65px;
+    background-color: #C73277;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.buttonCarousel-selengkapnya:hover{
+    background-color: #A82B66;
+}
+
+.carousel-selengkapnya{
+    width: 220px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    position: absolute;
+    top: 65%;
+    left: 63%;
+}
+
+.raisedButton-selengkapnya, .raisedButton-selengkapnya:focus {
+    box-shadow: 0 8px 0 0 #9D3A60;
+}
+
+.index-contentBack{
+    background-color: white;
+    /*padding: 0px 5px;*/
+}
+
+.index-contentInfo{
+    background-color: white;
+    /*padding: 0px 5px;*/
+}
+
+.titlePromo1{
+    position: absolute;
+    background-color: #C73277;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    font-weight: bold;
+    width: 195px;
+    float: left;
+    min-height: 1px;
+    height: 35px;
+    font-size: 16px;
+    padding-top: 6px;
+    margin-top: 12px;
+    z-index: 1;
+}
+
+.titlePromo1 img{
+    height: 25px;
+    margin-left: 15px;
+    margin-top: -2px;
+    float: left;
+}
+
+.titlePromo1 font{
+    margin-top: 0px;
+    margin-left: 10px;
+    float: left;
+}
+
+.box-produkPromo1{
+    margin-top: 30px;
+    border: 2px solid #C73277;
+    border-radius: 5px;
+    padding-top: 30px;
+    height: 220px;
+}
+
+.titlePromo2{
+    position: absolute;
+    background-color: #64B9DE;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    font-weight: bold;
+    width: 195px;
+    float: left;
+    min-height: 1px;
+    height: 35px;
+    font-size: 16px;
+    padding-top: 6px;
+    margin-top: 12px;
+    z-index: 1;
+}
+
+.titlePromo2 img{
+    height: 25px;
+    margin-left: 15px;
+    margin-top: -2px;
+    float: left;
+}
+
+.titlePromo2 font{
+    margin-top: 0px;
+    margin-left: 10px;
+    float: left;
+}
+
+.box-produkPromo2{
+    margin-top: 30px;
+    border: 2px solid #64B9DE;
+    border-radius: 5px;
+    padding-top: 30px;
+    height: 220px;
+}
+
+.titlePromo3{
+    position: absolute;
+    background-color: #00A659;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    color: white;
+    font-weight: bold;
+    width: 195px;
+    float: left;
+    min-height: 1px;
+    height: 35px;
+    font-size: 16px;
+    padding-top: 6px;
+    margin-top: 12px;
+    z-index: 1;
+}
+
+.titlePromo3 img{
+    height: 25px;
+    margin-left: 15px;
+    margin-top: -2px;
+    float: left;
+}
+
+.titlePromo3 font{
+    margin-top: 0px;
+    margin-left: 10px;
+    float: left;
+}
+
+.box-produkPromo3{
+    margin-top: 30px;
+    border: 2px solid #00A659;
+    border-radius: 5px;
+    padding-top: 30px;
+    height: 220px;
+}
+
+
+
+.boxImg-produkPromo{
+    padding: 0px 20px 20px 20px;
+}
+
+.boxImg-produkPromo > .col-md-12{
+
+
+}
+
+.boxImg-produkPromo img{
+    width: 100%;
+    box-shadow: 0 0 5px 0 gray;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.produkName-promo{
+    font-size: 22px;
+    font-weight: bold;
+    color: #373435;
+}
+
+.produkHarga-promo{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #ED3237;
+}
+
+.del-redLine{
+    color: red;
+}
+
+.produkPromo-hargaLama{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.font-grey{
+    color: #A9ABAE;
+}
+
+.font-hemat{
+    font-size: 13px;
+}
+
+.font-hemat font{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.keteranganPromo{
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.digit {
+    position: absolute;
+    display: block;
+    width: 40px !important;
+    height: 50px !important;
+    background-color: #E6E7E8 !important;
+    border-radius: 5px !important;
+    text-align: center;
+    color: #373435;
+    letter-spacing: -1px;
+    font-family: OpenSans-Regular !important;
+    padding-top: 6px;
+}
+
+.digit.static {
+    box-shadow: none;
+    background-image: none;
+    font-family: OpenSans-Regular !important;
+    padding-top: 6px;
+}
+
+.countdownHolder {
+    font-family: OpenSans-Regular !important;
+    text-align: center;
+    letter-spacing: -3px;
+    font-size: 24px;
+    font-weight: bold !important;
+}
+
+.boxKeteranganCountdown{
+    padding: 0px 17px;
+    color: #BDBFC1;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.boxPromoButton{
+    padding-top: 20px;
+}
+
+.buttonPromo-belanja{
+    width: 185px;
+    height: 35px;
+    background-color: #EB2128;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: -10px;
+}
+
+.buttonPromo-belanja:hover{
+    background-color: #D4171E;
+}
+
+.raisedButton-promoBelanja, .raisedButton-promoBelanja:focus {
+    box-shadow: 0 5px 0 0 #CC1E24;
+}
+
+.cartPromo-index{
+    height: 18px;
+    float: left;
+    margin-top: 1px;
+}
+
+.buttonPromo-banding{
+    width: 185px;
+    height: 35px;
+    background-color: #1E9C64;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttonPromo-banding:hover{
+    background-color: #1B8555;
+}
+
+.raisedButton-promoBanding, .raisedButton-promoBanding:focus {
+    box-shadow: 0 5px 0 0 #0A7A47;
+}
+
+.namaProduk-terbaru{
+    height: 35px;
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.namaProduk-terbaru a{
+    color: #96989A;
+}
+
+.namaProduk-terbaru a:hover{
+    color: #737575;
+}
+
+.namaProduk-terbaru font{
+    position: absolute;
+    bottom: 0;
+}
+
+.produkRate{
+    padding-right: 10px;
+}
+
+.produkRate img{
+    width: 90%;
+    position: absolute;
+    bottom: 3px;
+}
+
+.persen20{
+    width: 20%;
+    height: 35px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+
+.produkPadding{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.produkHarga-lama{
+    height: 35px;
+    margin-top: 5px;
+    padding-top: 9px;
+    border-top:1px solid #BDBFC1;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.produkHarga-sekarang{
+    height: 35px;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top:1px solid #BDBFC1;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #414142;
+}
+
+.boxBelanja{
+    height: 48px;
+}
+
+.buttonBelanja-terbaru{
+    width: 100%;
+    height: 43px;
+    border-radius: 0px;
+    border-bottom-left-radius: 10px;
+    background-color: #E775A8;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.buttonBelanja-terbaru:hover{
+    background-color: #D46F9C;
+}
+
+.raisedButton-btnBelanja{
+    box-shadow: 0 5px 0 0 #C9588B !important;
+}
+
+.imgCart-index{
+    height: 26px;
+    float: left;
+    margin-top: 1px;
+}
+
+.imgBelanja-index{
+    height: 26px;
+    float: left;
+    margin-top: 1px;
+}
+
+.buttonWishlist-terbaru{
+    width: 100%;
+    height: 43px;
+    border-radius: 0px;
+    background-color: #F2B54A;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.buttonWishlist-terbaru:hover{
+    background-color: #E0A745;
+}
+
+.raisedButton-btnWishlist{
+    box-shadow: 0 5px 0 0 #CF983B !important;
+}
+
+.imgWishlist-index{
+    width: 30px;
+    float: left;
+    margin-top: 1px;
+}
+
+.buttonCompare-terbaru{
+    width: 100%;
+    height: 43px;
+    border-radius: 0px;
+    background-color: #00A659;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom-right-radius: 10px;
+    padding-left: 15px;
+}
+
+.buttonCompare-terbaru:hover{
+    background-color: #009952;
+}
+
+.raisedButton-btnCompare{
+    box-shadow: 0 5px 0 0 #0D7848 !important;
+}
+
+.imgCompare-index{
+    width: 30px;
+    float: left;
+    margin-top: 1px;
+}
+
+.titleSlider-terbaru{
+    width: 10%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    color: #C42F74;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.lineSlider-terbaru{
+    width: 90%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-top: 10px;
+    border-bottom: 4px solid #64B9DE;
+}
+
+.boxSelengkapnya{
+    border-top: 2px solid #C73277;
+}
+
+.buttonSelengkapnya-terbaru{
+    width: 185px;
+    height: 30px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    background-color: #C73277;
+    color: white;
+    font-size: 16px;
+    padding: 0px;
+}
+
+.buttonSelengkapnya-terbaru:hover{
+    background-color: #AB2B67;
+}
+
+.raisedButton-btnSelengkapnya{
+    box-shadow: 0 4px 0 0 #94375A !important;
+}
+
+.imgArrowDown-index{
+    width: 10px;
+    margin-left: 5px;
+}
+
+.titleSlider-dicari{
+    width: 15%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    color: #C42F74;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.lineSlider-dicari{
+    width: 85%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-top: 10px;
+    border-bottom: 4px solid #64B9DE;
+}
+
+.titleSlider-dilihat{
+    width: 18%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    color: #C42F74;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.lineSlider-dilihat{
+    width: 82%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-top: 10px;
+    border-bottom: 4px solid #64B9DE;
+}
+
+.iklan img{
+    width: 100%;
+}
+
+.titleSlider-info{
+    width: 12%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    color: #C42F74;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.lineSlider-info{
+    width: 88%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-top: 10px;
+    border-bottom: 4px solid #64B9DE;
+}
+
+.boxInformasi{
+    background-color: #EDEDEE;
+    border-top: 5px solid #D2D3D5;
+    padding: 10px 0px 20px 0px;
+    margin-top: 10px;
+}
+
+.boxInformasi > .col-md-12 > .col-md-4{
+    padding: 0px 20px;
+}
+
+.boxInformasi > .col-md-12{
+    height: 80px;
+}
+
+.tanggalInformasi{
+    color: #7E7F80;
+    font-size: 12px;
+}
+
+.keteranganInformasi a{
+    font-size: 15px;
+    color: #373435;
+}
+
+.informasiBorder{
+    border-right: 1px solid #BDBFC1;
+    border-left: 1px solid #BDBFC1;
+}
+
+.boxInformasiLanjut{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.lineLanjut{
+    width: 90%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-top: 11px;
+    border-bottom: 1px solid #64B9DE;
+}
+
+.informasiLanjut{
+    width: 10%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    text-align: right;
+}
+
+.informasiLanjut a{
+    color: #BF2E72;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.informasiLanjut img{
+    height: 8px;
+    margin-left: 5px;
+}
+
+.captionProduk{
+    position: absolute;
+    z-index: 1;
+    width: 45px;
+    height: 57px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+/* slider_news */
+/*==================================================*/
+
+.flexslider {
+    height: 313px !important;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    position: relative;
+    zoom: 1;
+    width: 100% !important;
+    max-width: 100% !important;
+    background: #000;
+}
+
+
+
+.flexslider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+    position: relative;
+    height: 313px !important;
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+    opacity: 0;
+    display: block;
+    z-index: 1;
+}
+
+.flexslider .slides > li, .full-width .content .flexslider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+    position: relative;
+    height: 313px !important;
+    padding-bottom: 20px !important;
+}
+
+.flexslider .slides img {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+    max-width: 100% !important;
+    vertical-align: middle;
+}
+
+.flex-control-nav {
+    bottom: 0px !important;
+    height: 13px !important;
+    z-index: 2 !important;
+}
+
+.flex-control-nav li {
+    margin: 0 !important;
+    width: 12.5% !important;
+}
+
+.flex-control-paging li a {
+    width: 100% !important;
+    border-right: 1px solid #888 !important;
+    height: 13px !important;
+    background: #666 !important;
+    border-right: 1px solid #888 !important;
+    -webkit-transition: all .5s ease !important;
+    -moz-transition: all .5s ease !important;
+    transition: all .5s ease !important;
+    border-radius: 0px !important;
+
+}
+
+.flex-control-paging li a:hover {
+    background:#000 !important;
+}
+
+.flex-control-paging li a.flex-active {
+    background:#ef3636 !important;   
+    cursor:default !important;
+}
+
+
+
+.flex-direction-nav .flex-prev {
+    left: -30px;
+}
+
+
+.flex-direction-nav .flex-next::before, .flex-direction-nav .flex-prev::before {
+    width: 30px;
+    display: block;
+    text-align: center;
+    font-size: 18px !important;
+}
+
+.flex-direction-nav .flex-next {
+    right: -30px;
+}
+
+.edit-navbarSideMenu > li .box-menuLogoRed{
+    display: none;
+}
+
+.edit-navbarSideMenu > li.active .box-menuLogo{
+    display: none;
+}
+
+.edit-navbarSideMenu > li.active .box-menuLogoRed{
+    display: block;
+}
+
+.edit-navbarSideMenu > li:hover .box-menuLogo{
+    display: none ;
+}
+
+.edit-navbarSideMenu > li:hover .box-menuLogoRed{
+    display: block !important;
+}
+
+.edit-navbarSideMenu > li > a > div:first-child{
+    color: #A1A1A1;
+}
+
+.edit-navbarSideMenu > li.active > a > div:first-child{
+    color: white;
+}
+
+.edit-navbarSideMenu > li:hover > a > div:first-child{
+    color: white;
+}
+
+.s-pp-nav-right > li:first-child a {
+    border-top: none !important;
+}
+
+
+
+/*.s-pp-nav-right li:hover a {
+    background-color: #ed1b23 !important;
+    color: #fff !important;
+    font-weight: bold; }*/
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 290px;
+    }
+
+    .boxCarousel-index {
+        height: 290px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .carousel-buttonLeft > img{
+        margin-top: 110px;
+    }
+
+    .carousel-buttonRight > img{
+        margin-top: 110px;
+    }
+
+    .carousel-selengkapnya{
+        width: 200px;
+        top: 60%;
+        left: 63%;
+    }
+
+    .buttonCarousel-selengkapnya{
+        width: 100%;
+        height: 55px;
+        font-size: 22px;
+    }
+
+    .produkName-promo{
+        text-align: left;
+    }
+
+    .produkHarga-promo{
+        text-align: left;
+    }
+
+    .produkPromo-hargaLama{
+        text-align: left;
+    }
+
+    .keteranganPromo {
+        padding-left: 0px;
+    }
+
+    .boxImg-produkPromo {
+        padding-left: 150px;
+    }
+
+    .boxKeteranganCountdown {
+        padding: 0px 140px;
+    }
+
+    .buttonPromo-belanja {
+        margin-right: 25px;
+    }
+
+    .buttonPromo-banding {
+        float: left;
+        margin-left: 25px;
+    }
+
+    .box-produkPromo {
+        padding-bottom: 20px;
+    }
+
+    .titleSlider-terbaru{
+        width: 13%;
+
+    }
+
+    .lineSlider-terbaru{
+        width: 87%;
+    }
+
+    .titleSlider-dicari{
+        width: 20%;
+    }
+
+    .lineSlider-dicari{
+        width: 80%;
+    }
+
+    .titleSlider-dilihat{
+        width: 25%;
+    }
+
+    .lineSlider-dilihat{
+        width: 75%;
+    }
+
+    .titleSlider-info{
+        width: 15%;
+    }
+
+    .lineSlider-info{
+        width: 85%;
+
+    }
+
+    .lineLanjut{
+        width: 85%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-top: 11px;
+        border-bottom: 1px solid #64B9DE;
+    }
+
+    .informasiLanjut{
+        width: 15%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        text-align: right;
+    }
+
+    .box-produkPromo1{
+        margin-top: 30px;
+        border: 2px solid #C73277;
+        border-radius: 5px;
+        padding-top: 30px;
+        height: 370px;
+    }
+
+    .box-produkPromo2{
+        margin-top: 30px;
+        border: 2px solid #64B9DE;
+        border-radius: 5px;
+        padding-top: 30px;
+        height: 370px;
+    }
+
+    .box-produkPromo3{
+        margin-top: 30px;
+        border: 2px solid #00A659;
+        border-radius: 5px;
+        padding-top: 30px;
+        height: 370px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        height: 140px;
+    }
+
+    .boxCarousel-index{
+        height: inherit;
+    }
+
+    .carousel-buttonLeft{
+        top: 60%;
+        transform: translateY(-50%);
+    }
+
+    .carousel-buttonLeft > img{
+        height: 40px;
+        margin-left: 10px;
+        vertical-align: middle;
+        margin-top: 0px;
+    }
+
+    .carousel-buttonRight{
+        top: 60%;
+        transform: translateY(-50%);
+    }
+
+    .carousel-buttonRight > img{
+        height: 40px;
+        margin-left: -50px;
+        vertical-align: middle;
+        margin-top: 0px;
+    }
+
+    .carousel-selengkapnya{
+        width: 110px;
+        top: 55%;
+        left: 55%;
+    }
+
+    .buttonCarousel-selengkapnya{
+        width: 100%;
+        height: 30px;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .indicators-edit{
+        bottom: 0px;
+    }
+
+    .indicators-edit li{
+        background-color: #B6B6B7;
+        border: 0px none;
+        width: 5px;
+        height: 5px;
+    }
+
+    .indicators-edit .active{
+        width: 8px;
+        height: 8px;
+    }
+
+    .raisedButton-selengkapnya, .raisedButton-selengkapnya:focus {
+        box-shadow: 0 4px 0 0 #9D3A60;
+    }
+
+    .boxImg-produkPromo {
+        padding-left: 20px;
+    }
+
+    .produkName-promo{
+        font-size: 15px;
+    }
+
+    .produkHarga-promo{
+        font-size: 15px;
+    }
+
+    .produkPromo-hargaLama{
+        font-size: 14px;
+    }
+
+    .font-hemat{
+        font-size: 14px;
+    }
+
+    .font-hemat font{
+        font-size: 15px;
+    }
+
+    .keteranganPromo{
+        font-size: 12px;
+        margin-left: -85px;
+    }
+
+    .boxImg-produkPromo img{
+        height: 90px;
+        width: 65px;
+
+    }
+
+    .digit {
+
+        width: 20px !important;
+        height: 30px !important;
+        background-color: #E6E7E8 !important;
+        border-radius: 5px !important;
+        text-align: center;
+        color: #373435;
+        letter-spacing: -1px;
+        font-family: OpenSans-Regular !important;
+        padding-top: 6px;
+        font-size: 14px;
+    }
+
+    .position{
+        display: inline-block;
+        height: 30px;
+        overflow: hidden;
+        position: relative;
+        width: 20px;
+    }
+
+    .countdownHolder {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .boxKeteranganCountdown {
+        padding: 0px 0px;
+    }
+
+    .boxPromoButton > .col-md-6:first-child{
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    .buttonPromo-belanja {
+        width: 100%;
+        height: 35px;
+        background-color: #EB2128;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: bold;
+        margin-right: 0px;
+        padding: 0px;
+        padding-left: 5px;
+    }
+
+    .cartPromo-index{
+        height: 15px;
+        float: left;
+        margin-top: 1px;
+    }
+
+    .boxPromoButton > .col-md-6:last-child{
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+    .buttonPromo-banding {
+        width: 100%;
+        height: 35px;
+        background-color: #1E9C64;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: bold;
+        margin-right: 0px;
+        padding: 0px;
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+
+    .buttonPromo-banding:hover {
+        background-color: #0A7A47;
+    }
+
+    .cartPromo-index{
+        height: 15px;
+        float: left;
+        margin-top: 1px;
+    }
+
+    .boxKeteranganCountdown{
+        padding: 0px 10%;
+    }
+
+    .titleSlider-terbaru{
+        width: 30%;
+
+    }
+
+    .lineSlider-terbaru{
+        width: 70%;
+    }
+
+    .titleSlider-dicari{
+        width: 50%;
+    }
+
+    .lineSlider-dicari{
+        width: 50%;
+    }
+
+    .titleSlider-dilihat{
+        width: 60%;
+    }
+
+    .lineSlider-dilihat{
+        width: 40%;
+    }
+
+    .titleSlider-info{
+        width: 40%;
+    }
+
+    .lineSlider-info{
+        width: 60%;
+
+    }
+
+    .informasiBorder{
+        border-right: 0px none;
+        border-left: 0px none;
+        border-top: 1px solid #BDBFC1;
+        border-bottom: 1px solid #BDBFC1;
+    }
+
+    .lineLanjut{
+        width: 65% !important;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-top: 11px;
+        border-bottom: 1px solid #64B9DE;
+    }
+
+    .informasiLanjut{
+        width: 35% !important;
+        float: right;
+        position: relative;
+        min-height: 1px;
+        text-align: right;
+    }
+
+    .boxInformasi > .col-md-12 > .col-md-4{
+        padding-top: 5px;
+    }
+
+    .boxInformasi > .col-md-12{
+        height: 95px;
+    }
+
+    .informasiLanjut{
+        width: 15%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        text-align: right;
+    }
+
+    .bxSlide1-edit {
+        margin-right: 10px !important;
+        margin-left: 0px !important;
+        width: 350px !important;
+        height: 330px !important;
+    }
+
+    .box-produkPromo1{
+        margin-top: 30px;
+        border: 2px solid #C73277;
+        border-radius: 5px;
+        padding-top: 30px;
+        height: 300px;
+    }
+
+    .box-produkPromo2{
+        margin-top: 30px;
+        border: 2px solid #64B9DE;
+        border-radius: 5px;
+        padding-top: 30px;
+        height: 300px;
+    }
+
+    .box-produkPromo3{
+        margin-top: 30px;
+        border: 2px solid #00A659;
+        border-radius: 5px;
+        padding-top: 30px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,660 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 18, 2016, 10:03:18 AM
+    Author     : Arif
+*/
+
+.boxOut-top{
+    margin-top: 175px;
+    height: 345px;
+    background-image: url('../../img/icon/profil-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.boxOut-buttonDesktop{
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.box-buttonDesktop{
+    height: 66px;
+    width: 244px;
+}
+
+.button-desktop{
+    margin: 0px;
+    background-color: #F5F5F5;
+    color: #444444 !important;
+    height: 66px;
+    width: 244px;
+    font-size: 20px;
+    //border: 1px solid #C9CACA;
+    border-radius: 10px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.boxOut-profilName{
+    font-size: 34px;
+    color: white;
+    text-align: right;
+    height: 50%;
+}
+
+.table-profilName{
+    height: 100%;
+}
+
+.table-profilName td{
+    height: 100%;
+    vertical-align: bottom !important;
+    padding-bottom: 15px;
+}
+
+.boxOut-profilUser{
+    height: 219px;
+    margin-top: -109px;
+    margin-bottom: 47px;
+}
+
+.boxOut-pictureProfil img{
+    border-radius: 5px;
+    border: 8px solid white;
+    width: 219px;
+    height: 219px;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.boxOut-editProfil{
+    height: 50%;
+    padding-left: 53px;
+    padding-top: 30px;
+}
+
+.button-editProfil{
+    position: relative;
+    margin: 0px;
+    background-color: transparent;
+    color: #ED1C24 !important;
+    height: 71px;
+    width: 214px;
+    font-size: 26px;
+    border: 1px solid #ED1C24;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+}
+
+.konfirmasiPembayaran-warning{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 52px;
+    padding-right: 80px;
+}
+
+.konfirmasiPembayaran-warning > div{
+    background-color: #FFE7E3;
+    padding: 10px 20px 10px 20px;
+    color: #E7393C;
+    border: 1px solid #F29494;
+    font-weight: bold;
+    font-size: 16px;
+    //height: 30px;
+}
+
+.boxOut-menuTabProfil{
+    //margin-top: 47px;
+    padding: 0px 52px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.edit-navtabs-profil > li {
+    margin-bottom: 0px;
+    border-right: 1px dotted #DCDDDD;
+}
+
+.edit-navtabs-profil > li  a {
+    position: relative;
+    display: block;
+    padding: 10px 26px;
+    
+    
+}
+.edit-navtabs-profil > li:last-child {
+    border-right: none;
+}
+
+.edit-navtabs-profil > li.active  a, 
+.edit-navtabs-profil > li.active  a:hover, 
+.edit-navtabs-profil > li.active  a:focus {
+    color: white;
+    cursor: default;
+    background-color: #ED1C24;
+    border-width: 0px;
+    border-style: none;
+    border-color: transparent;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-size: 20px;
+}
+
+.edit-navtabs-profil > li  a {
+    //margin-right: 5px;
+    margin-right: 0px;
+    line-height: 1.42857;
+    border: 0px none;
+    border-radius: 4px 4px 0px 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: white;
+    color: #757475;
+    font-size: 20px;
+}
+
+.edit-navtabs-profil > li  a:hover{
+    background-color: #E6E7E8;
+}
+
+.triangle-red{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 13.5px 0 13.5px;
+    border-color: #ed1c23 transparent transparent transparent;
+    position: absolute;
+    margin-left: 40%;
+    display: none;
+}
+
+.edit-navtabs-profil > li.active .triangle-red{
+    display: block;
+}
+
+.boxOut-containTab{
+    margin-top: 40px;
+    padding: 0px 150px;
+}
+
+.box-judul{
+    background-color: #E6E6E6;
+    height: 70px;
+    //padding-top: 8px;
+    padding-left: 30px;
+    font-size: 28px;
+    color: #5F5D5D;
+}
+
+.box-circleUp img{
+    cursor:pointer;
+    height: 14px;
+    width: 22px;
+}
+
+.box-popup-pilihan{
+    //height: 205px;
+    margin-bottom: 17px;
+    border-bottom: 4px solid #ED1C24;
+}
+
+.boxOut-infoUser{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.boxOut-infoUser-hide{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: none;
+    text-align: justify;
+}
+
+.field-nomorOrder, .field-nomorOrder:focus{
+    height:68px;
+    border-radius: 5px;
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid #EEEEEF !important;
+    box-shadow: none !important;
+    color: #757475;
+    font-size: 22px;
+}
+
+.boxOut-titleField{
+    color: #757475;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.row-paddingBottom{
+    padding-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.editTextArea, .editTextArea:focus{
+    display: block;
+    width: 100%;
+    height: 154px !important;
+    padding: 20px 20px;
+    font-size: 24px !important;
+    //line-height: 1.42857;
+    color: #757475;
+    background-color: white;
+    background-image: none;
+    border: 1px solid #EEEEEF;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    resize: none;
+}
+
+.edit-checbox{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 12%;
+}
+
+.boxCheckBox label{
+    font-size: 22px;
+    color: #757475;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    left: 0;
+    margin-left: -27px;
+    margin-top: 4px;
+    border: 1px solid #EEEEEF;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out; 
+}
+
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    left: 0;
+    top: 0;
+    margin-left: -26px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    font-size: 22px;
+    color: #757475;
+}
+
+.boxOut-buttonProfil{
+    margin-top: 30px;
+    padding: 0px 25px;
+    margin-bottom: 50px;
+}
+
+.box-buttonSimpanProfil{
+    height: 68px;
+    padding-right: 10px;
+}
+
+.button-simpanProfil{
+    margin: 0px;
+    background-color: #FF6600;
+    color: white !important;
+    height: 100%;
+    width: 100%;
+    font-size: 28px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.box-buttonBatalProfil{
+    height: 68px;
+}
+
+.button-buttonBatalProfil{
+    margin: 0px;
+    background-color: #CCCCCC;
+    color: white !important;
+    height: 100%;
+    width: 100%;
+    font-size: 28px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.boxOut-jarakField{
+    margin-top: 8px;
+}
+
+.boxOut-titleBerita{
+    font-size: 20px;
+    color: #4F4E4E;
+}
+
+.field-berita, .field-berita:focus{
+    height:42px;
+    border-radius: 5px;
+    padding: 0px 15px;
+    background-color: white !important;
+    border: 1px solid #EEEEEF !important;
+    box-shadow: none !important;
+    color: #4F4E4E !important;
+    font-size: 16px;
+}
+
+.field-berita::-webkit-input-placeholder { 
+    color: #4F4E4E !important; 
+}
+.field-berita:-moz-placeholder { 
+    color: #4F4E4E !important;  
+}
+.field-berita::-moz-placeholder { 
+    color: #4F4E4E !important;  
+}
+.field-berita:-ms-input-placeholder { 
+    color: #4F4E4E !important;  
+}
+
+.dropdown-kategoriOption{
+    height:42px;
+    border-radius: 0px !important;
+    padding: 0px 0px 0px 10px !important;
+    border: 1px solid #E6E7E8;
+    box-shadow: none !important;
+    color: #4F4E4E;
+    font-size: 16px !important;
+    padding-left: 15px !important;
+    //text-align: right !important;
+    background-color: white !important;
+    font-style: italic;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    background: url('../../img/icon/arrowDown-grey.png') no-repeat;
+    background-position: 97% 50%;
+    background-size: 8px 7px;
+    text-indent: 0.01px;
+    text-overflow: "";
+}
+
+.boxOut-keteranganField{
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.boxOut-titleLine{
+    color: #ED1C24;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.boxOut-redLine{
+    border-bottom: 1px solid #ED1C24;
+    height: 15px;
+}
+
+.boxOut-mapBerita{
+    height: 289px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.boxOut-mapBerita *{
+    width: 100%;
+    height: 100%;
+}
+
+.boxOut-jarakIsiBerita{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.boxOt-titleIsiBerita{
+    color: #757475;
+    font-size: 13px;
+    background-color: #E9E9E8;
+    width: 90px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding: 7px 7px 7px 7px;
+}
+
+.boxOt-titleIsiBerita img{
+    width: 15px;
+    height: 14px;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.boxOut-isiBerita{
+    background-color: #E9E9E8;
+    padding: 70px 15px 75px 15px;
+}
+
+.editTextArea, .editTextArea:focus{
+    display: block;
+    width: 100%;
+    height: 225px;
+    padding: 10px 10px;
+    font-size: 14px !important;
+    color: #4F4E4E;;
+    background-color: white;
+    background-image: none;
+    border: 1px solid #E6E7E8;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    resize: none;
+}
+
+.button-saveBerita{
+    margin: 0px;
+    background-color: #3DA047;
+    color: white !important;
+    height: 53px !important;
+    width: 100%;
+    font-size: 28px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.button-saveBerita img{
+    height: 25px;
+    width: 24px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.button-cancelBerita{
+    margin: 0px;
+    background-color: #ED1C24;
+    color: white !important;
+    height: 53px !important;
+    width: 100%;
+    font-size: 28px;
+    border-radius: 5px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.button-cancelBerita img{
+    height: 24px;
+    width: 24px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.boxOut-buttonBerita{
+    margin-top: 30px;
+    padding: 0px 100px;
+    margin-bottom: 80px;
+}
+
+.box-buttonSaveBerita{
+    padding-right: 15px;
+}
+
+.boxOut-uploadFoto{
+    margin-top: 15px;
+    border: 1px solid #C9CACA;
+    padding: 30px 105px 30px 25px;
+}
+
+.boxOut-titleUploadFoto{
+    font-size: 20px;
+    color: #4F4E4E;
+    text-align: right;
+    padding-right: 35px;
+    padding-top: 8px;
+}
+
+.boxOut-tambahFoto{
+    padding-right: 10px;
+}
+
+.boxOut-fieldTambahFoto{
+    margin-bottom: 17px;
+}
+
+.button-tambahFoto{
+    margin: 0px;
+    background-color: #F08519;
+    color: white !important;
+    height: 37px !important;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.button-tambahFoto img{
+    height: 17px;
+    width: 17px;
+    margin-top: -7px;
+    margin-right: 5px;
+}
+
+.button-uploadFoto{
+    margin: 0px;
+    background-color: #008FD7;
+    color: white !important;
+    height: 37px !important;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+}
+
+.button-uploadFoto img{
+    height: 16px;
+    width: 14px;
+    margin-top: -7px;
+    margin-right: 15px;
+}
+
+.boxOut-keteranganUploadFoto{
+    margin-top: 70px;
+    border-top: 1px solid #DCDDDD;
+    padding-top: 15px;
+    color: #4F4E4E;
+    font-size: 13px;
+}
+
+.title-keteranganUpload{
+    color: #E62129;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+  
+}
+
+.btn-file-video {
+  position: relative;
+  overflow: hidden;
+  
+}
+.btn-file-video input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+  
+}
+
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}

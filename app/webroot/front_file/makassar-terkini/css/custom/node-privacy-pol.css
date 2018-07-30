@@ -1,0 +1,58 @@
+.priv-pol-module{
+	/*width: inherit;*/
+	width: 1098px;
+	height: auto;
+}
+
+.priv-pol-module-header{
+	height: 40px;
+	position: relative;
+	/*float: left;*/
+}
+
+.priv-pol-module-header-title{
+	width: 150px;
+	height: 40px;
+	color: #FFF;
+	background-color: #F00;
+	font-size: 14px;
+	font-style: italic;
+	display: inline-block;
+	position:absolute;
+}
+
+.priv-pol-module-header-title > p{
+	padding-top:8px;
+	padding-left:25px;
+	font-size:16px;
+}
+
+.priv-pol-module-header-title-tooltip{
+	position: absolute;
+	top:0px;
+	left:150px;
+	height:40px;
+}
+.priv-pol-module-header-stripes{
+	display:inline-block;
+	height:40px;
+	width:900px;
+	background: repeating-linear-gradient(
+	  45deg,
+	  #444,
+	  #444 5px,
+	  #686868 5px,
+	  #686868 10px
+	);
+	top: 0px;
+	position:absolute;
+	margin-left:84px;
+}
+
+.priv-pol-module-content{
+	margin-top: 15px;
+	font-size: 14px;
+	width: 980px;
+	height: auto;
+	position: relative;
+}

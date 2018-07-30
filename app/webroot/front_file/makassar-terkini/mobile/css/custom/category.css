@@ -1,0 +1,244 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 27, 2016, 9:44:06 PM
+    Author     : Arif
+*/
+
+.boxOut-marginTop{
+    margin-top: 180px;
+}
+
+.boxOut-title{
+    //border-bottom: 3px solid #ED1C24;
+    background-image: url('../../img/icon/red-black-repetitor.png');
+    background-size: contain;
+    //background-repeat: no-repeat;
+    background-position: right;
+    height: 70px;
+}
+
+.box-title{
+    background-color: #ED1C24;
+    padding-left: 30px;
+    padding-right: 30px;
+    //padding-top: 8px;
+    font-size: 34px;
+    height: inherit;
+    color: white;
+    float: left;
+    //min-width: 360px;
+    text-align: center;
+}
+
+.box-titleTriangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 70px 0 0 48px;
+    border-color: transparent transparent transparent #ed1c23;
+    float: left;
+
+}
+
+.boxOut-subMenu{
+    float: left;
+    height: inherit;
+}
+
+.box-subMenu{
+    margin-top: 0px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.edit-navtabs-profil > li {
+    margin-bottom: 0px;
+}
+
+.edit-navtabs-profil > li > a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 0px;
+}
+
+.edit-navtabs-profil > li > a {
+    position: relative;
+    display: block;
+    padding: 0px;
+    color: white;
+    font-size: 26px;
+}
+
+.edit-navtabs-profil > li > a > .col-md-12{
+    //background-color: #444444;;
+    //padding-top: 23px;
+    //padding-bottom: 20px;
+}
+
+.edit-navtabs-profil > li:hover > a > .col-md-12{
+    //background-color: #E6E7E8;
+}
+
+.edit-navtabs-profil > li > a > .col-md-12 > .col-md-12{
+    border-right: 1px dotted white;
+    //height: 30px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.edit-navtabs-profil > li:last-child > a > .col-md-12 > .col-md-12{
+    border-right: none;
+}
+
+.edit-navtabs-profil > li.active > a > .col-md-12 > .col-md-12{
+    border-right: none;
+}
+
+.edit-navtabs-profil > li.active > a, .edit-navtabs-profil > li.active > a:hover, .edit-navtabs-profil > li.active > a:focus {
+    cursor: default;
+    background-color: transparent;
+    border: none;
+}
+
+.edit-navtabs-profil > li.active > a, .edit-navtabs-profil > li.active > a:focus, .edit-navtabs-profil > li.active > a:hover{
+    color: white;
+}
+
+.edit-navtabs-profil > li.active > a > .col-md-12{
+    background-color: #ed1c23 ;
+}
+
+
+
+
+
+.boxOut-advertise{
+    height: 280px;
+    background-color: #E6E6E6;
+    color: #B3B3B3;
+    font-size: 80px;
+}
+
+
+.boxOut-indexContent{
+    padding: 0px 30px;
+    background-color: #F5F5F5;
+}
+
+.boxOut-beritaBanyak > .boxOut-berita{
+    border-bottom: 1px solid #C9CACA;
+}
+
+.boxOut-beritaBanyak > .boxOut-berita:last-child{
+    border-bottom: none;
+}
+
+.boxOut-berita{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.boxOut-beritaFoto{
+    padding-right: 30px;
+}
+
+.batas-border{
+    border-bottom: 1px solid #C9CACA; 
+    padding-bottom: 30px;
+}
+
+.box-beritaFoto{
+    height: 221px;
+    overflow: hidden;
+}
+
+.box-beritaFoto img{
+    left: 50%;
+    margin-left: -70%;
+    position: relative;
+    width: auto !important;
+    height: 100%;
+}
+
+.boxOut-beritaTitle{
+    padding-left: 30px;
+    height: 221px;
+}
+
+.center-news{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    align-items: center;
+}
+
+.box-beritaTitle{
+    font-size: 40px;
+    max-height: 170px;
+    min-height: 40px;
+    //padding-top: 25px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.box-beritaTitle a{
+    color: black;
+}
+
+.box-beritaTitle a:hover{
+    color: #ED1C24;
+}
+
+.box-beritaJam{
+    font-size: 28px;
+    color: #333;
+    height: 35px;
+    overflow: hidden;
+}
+
+.boxOut-beritaSponsor{
+    width: 110px;
+    height: 57px;
+    position: absolute;
+    right: 0;
+    margin-top: -10px;
+}
+
+.sponsorTriangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6.5px 11px 6.5px;
+    border-color: transparent transparent #ed1c23 transparent;
+}
+
+.box-beritaSponsor{
+    height: 46px;
+    background-color: #ED1C24;
+    font-size: 17px;
+}
+
+.box-beritaSponsor a{
+    color: white;
+}
+
+.box-beritaSponsor a:hover{
+    color: #E3E3E3;
+}
+
+.tab-pane{
+    display: none;
+}
+
+.tab-pane.active{
+    display: block;
+}
